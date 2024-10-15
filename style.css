@@ -11,40 +11,22 @@ body {
   font-weight: 300;
   background-color: rgb(250, 235, 215,0.9);
 }
-.img,.imag{
+
+.imag{
   width: 100%;
   left: 100px;
   background-image: url("./codecraft_Banner_1.webp");
 }
-.img{
-position: relative;
- height: 100%;
- left: 200px;
- top: 200px;
 
-  
-  
-}
-/*
-h2 {
-  font-size: 100px;
-  position: relative;
-  color: #5b85c0;
-  background-image: -webkit-linear-gradient(90deg, #A52A2A 20%, #b92d2d 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 60s infinite linear;
-}
-  */
 
-  h4{
+h4{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(131, 45, 45);
     font-size: 50px;
-  }
+}
 
-  h5{
+h5{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(46 46 46);
     margin: 20px 0px;
@@ -59,8 +41,7 @@ h2 {
 .rules-strategy{
   position: relative;
   font-size: 30px;
-  line-height: 35px;
-  margin-top: 50px;
+  line-height: 30px;
   margin-top: 1px;
   padding: 60px 355px;
 }
@@ -77,16 +58,6 @@ p.intro-des span {
   font-size: 15px;
 }
 
-.button-row-container {
-  width: 250px;
-  height: 50px;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-}
 
 /*** Navbar ***/
 .navbar-container {
@@ -117,16 +88,16 @@ p.intro-des span {
   justify-content: space-between;
   flex-wrap: nowrap;
 }
-.nav a,
+
 .navbar a {
-  color: #3c3c3c;
+  color: #e81313;
   text-decoration: none;
 }
-.nav .nav-item,
+
 .navbar .nav-item {
   padding: 5px 0;
 }
-.nav .nav-item:after,
+
 .navbar .nav-item:after {
   content: " ";
   display: block;
@@ -144,10 +115,10 @@ p.intro-des span {
   background: #3c3c3c;
 }
 
-.active:after {
+/* .active:after {
   height: 2px !important;
   background: #d90505 !important;
-}
+} */
 
 section.page-container {
   margin: auto;
@@ -162,7 +133,7 @@ section.page-container {
   max-width: 800px;
 }
 #intro .section-container {
-  margin-top: 70px;
+  margin-top: 76px;
 }
 
 .section-container {
@@ -171,29 +142,9 @@ section.page-container {
   left: 50%;
   width: 90%;
   transform: translate(-50%, -50%);
-  text-align: center;
   padding-top: 30px;
 }
-.section-container h4 {
-  font-size: 50px;
-  font-weight: 300;
-  color: #3c3c3c;
-  margin-bottom: 30px;
-}
-/*rules buckground*/
-.Rul{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  flex-direction: column;
-}
-.imgRul{
-  width: 40%;
-  
-  margin-top: 40px;
-  left: 50%;
-}
+
 
 /*** General Button Styles ***/
 .button-container {
